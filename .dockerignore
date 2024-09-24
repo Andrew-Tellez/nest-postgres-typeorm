@@ -1,0 +1,14 @@
+# Ignorar node_modules porque se reinstalará en la imagen
+node_modules
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de caché
+npm-debug.log
+Dockerfile*
+.dockerignore
+
+# Ignorar archivos de prueba
+test
+tests
